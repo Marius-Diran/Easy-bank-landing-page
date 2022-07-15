@@ -1,5 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body{
+  background: hsl(0, 0%, 98%);
+  font-family: 'Public Sans', sans-serif;
+}
+
+/* button and container is a global factor */
+button{
+  width: 12%;
+  height: 6vh;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  color: hsl(0, 0%, 100%);
+}
+
+.container{
+  width: 95%;
+  margin: auto;
+}
+
+.nav{
+  background: hsl(0, 0%, 100%);
+  box-shadow: 0 0.3px 15px 0.1px hsl(0, 0%, 0%);
+}
+
+.nav-div{
+  display: flex;
+}
+
+.logo{
+  width: 10%;
+  margin: 4vh 5vw;
+}
+
+.nav-bar ul{
+  display: flex;
+  list-style: none;
+  margin: 4vh 12vw;
+}
+
+.nav-bar ul li{
+  padding: 0 1vw;
+  color: hsl(233, 8%, 62%);
+}
+
+.request-btn1{
+  margin: 2.2vh 0;
 }
