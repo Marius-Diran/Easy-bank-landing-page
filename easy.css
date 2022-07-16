@@ -67,18 +67,29 @@ button{
 }
 
 .writeup-1{
-  margin: 20vh 7vw;
-  border: 1px solid red;
+  margin: 30vh 7vw;
   width: 30%;
   height: fit-content;
 }
 
 .writeup-1 h1{
   font-size: 3rem;
+  font-weight: 400;
+  color: hsl(233, 26%, 24%);
+  margin: 0 0 3vh 0;
+}
+
+.writeup-1 p{
+  color: hsl(233, 8%, 62%);
+  font-size: 300;
+  margin: 0 0 6vh 0;
+}
+
+.request-btn2{
+  width: 40%;
 }
 
 .img-div1{
-  border: 1px solid green;
   background: url("images/image-mockups.png");
   width: 50%;
   height: 125vh;
