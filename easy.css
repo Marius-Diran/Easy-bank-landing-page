@@ -180,6 +180,110 @@ button{
   margin: 0 0 5vh 0;
 }
 
+.easy-article{
+  border: 1px solid red;
+  background: hsl(0, 0%, 98%);
+}
+
+.holder-3 h1{
+  padding: 12vh 0 8vh 0;
+}
+
 .flex-box2{
   display: flex;
+}
+
+.flex-img{
+  width: 100%;
+  min-height: 35vh;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.flexable-1{
+  background: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 0 8vh 0;
+}
+
+.flexable-1 p{
+  margin: 3vh 0 0 2vw;
+}
+
+.flexable-1 h3{
+  margin: 2vh 0 0 2vw;
+  width: 90%;
+}
+
+.flexable-1 .p-1{
+  margin: 3vh 0 5vh 2vw;
+  width: 90%;
+  font-size: 0.9rem;
+}
+
+.flexable-2{
+  background: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 0 8vh 2vw;
+}
+
+.flexable-2 p{
+  margin: 3vh 0 0 2vw;
+}
+
+.flexable-2 h3{
+  margin: 2vh 0 0 2vw;
+  width: 90%;
+}
+
+.flexable-2 .p-1{
+  margin: 3vh 0 5vh 2vw;
+  width: 90%;
+  font-size: 0.9rem;
+}
+
+.flexable-3{
+  background: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 0 8vh 2vw;
+}
+
+.flexable-3 p{
+  margin: 3vh 0 0 2vw;
+}
+
+.flexable-3 h3{
+  margin: 2vh 0 0 2vw;
+  width: 90%;
+}
+
+.flexable-3 .p-1{
+  margin: 3vh 0 5vh 2vw;
+  width: 90%;
+  font-size: 0.9rem;
+}
+
+.flexable-4{
+  background: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 0 8vh 2vw;
+}
+
+.flexable-4 p{
+  margin: 3vh 0 0 2vw;
+}
+
+.flexable-4 h3{
+  margin: 2vh 0 0 2vw;
+  width: 90%;
+}
+
+.flexable-4 .p-1{
+  margin: 3vh 0 5vh 2vw;
+  width: 90%;
+  font-size: 0.9rem;
 }
