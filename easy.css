@@ -181,7 +181,6 @@ button{
 }
 
 .easy-article{
-  border: 1px solid red;
   background: hsl(0, 0%, 98%);
 }
 
@@ -204,86 +203,160 @@ button{
   background: hsl(0, 0%, 100%);
   border-radius: 10px;
   width: 100%;
-  margin: 0 0 8vh 0;
+  margin: 0 0 15vh 0;
 }
 
 .flexable-1 p{
+  font-size: 0.8rem;
+  color: hsl(233, 8%, 62%);
   margin: 3vh 0 0 2vw;
 }
 
 .flexable-1 h3{
   margin: 2vh 0 0 2vw;
   width: 90%;
+  color: hsl(233, 26%, 24%);
 }
 
 .flexable-1 .p-1{
   margin: 3vh 0 5vh 2vw;
-  width: 90%;
+  width: 80%;
   font-size: 0.9rem;
+  color: hsl(233, 8%, 62%);
 }
 
 .flexable-2{
   background: hsl(0, 0%, 100%);
   border-radius: 10px;
   width: 100%;
-  margin: 0 0 8vh 2vw;
+  margin: 0 0 15vh 1.5vw;
 }
 
 .flexable-2 p{
   margin: 3vh 0 0 2vw;
+  font-size: 0.8rem;
+  color: hsl(233, 8%, 62%);
 }
 
 .flexable-2 h3{
   margin: 2vh 0 0 2vw;
   width: 90%;
+  color: hsl(233, 26%, 24%);
 }
 
 .flexable-2 .p-1{
   margin: 3vh 0 5vh 2vw;
-  width: 90%;
+  width: 80%;
   font-size: 0.9rem;
+  color: hsl(233, 8%, 62%);
 }
 
 .flexable-3{
   background: hsl(0, 0%, 100%);
   border-radius: 10px;
   width: 100%;
-  margin: 0 0 8vh 2vw;
+  margin: 0 0 15vh 1.5vw;
 }
 
 .flexable-3 p{
   margin: 3vh 0 0 2vw;
+  font-size: 0.8rem;
+  color: hsl(233, 8%, 62%);
 }
 
 .flexable-3 h3{
   margin: 2vh 0 0 2vw;
   width: 90%;
+  color: hsl(233, 26%, 24%);
 }
 
 .flexable-3 .p-1{
   margin: 3vh 0 5vh 2vw;
-  width: 90%;
+  width: 85%;
   font-size: 0.9rem;
+  color: hsl(233, 8%, 62%);
 }
 
 .flexable-4{
   background: hsl(0, 0%, 100%);
   border-radius: 10px;
   width: 100%;
-  margin: 0 0 8vh 2vw;
+  margin: 0 0 15vh 1.5vw;
 }
 
 .flexable-4 p{
+  color: hsl(233, 8%, 62%);
+  font-size: 0.8rem;
   margin: 3vh 0 0 2vw;
 }
 
 .flexable-4 h3{
   margin: 2vh 0 0 2vw;
   width: 90%;
+  color: hsl(233, 26%, 24%);
 }
 
 .flexable-4 .p-1{
+  color: hsl(233, 8%, 62%);
   margin: 3vh 0 5vh 2vw;
-  width: 90%;
+  width: 87%;
   font-size: 0.9rem;
+}
+
+.footer{
+  background-color: hsl(233, 26%, 24%);
+  height: 32vh;
+  position: relative;
+}
+
+.logo2{
+  margin: 8vh 0;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(315deg) brightness(103%) contrast(102%);
+}
+
+.flex-icons ul{
+  display: flex;
+  list-style: none;
+}
+
+.flex-icons ul li img{
+  padding: 0 0 0 0.8vw;
+}
+
+.list1{
+  margin: -17vh 0 0 20vw;
+}
+
+.list1 ul{
+  list-style: none;
+}
+
+.list1 ul li{
+  color: hsl(0, 0%, 100%);
+  padding: 1.5vh 0;
+}
+
+.list2{
+  margin: -17.5vh 0 0 30vw;
+}
+
+.list2 ul{
+  list-style: none;
+}
+
+.list2 ul li{
+  color: hsl(0, 0%, 100%);
+  padding: 1.5vh 0;
+}
+
+.request-btn3{
+  position: absolute;
+  top: 7vh;
+  right: 10vw;
+}
+
+.copyright{
+  margin: -5vh 0 0 64vw;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
 }
