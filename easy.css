@@ -21,6 +21,11 @@ button{
   color: hsl(0, 0%, 100%);
 }
 
+button:hover{
+  background: linear-gradient(to right, hsla(136, 65%, 51%, 0.5), hsla(192, 70%, 51%, 0.5));
+  cursor: pointer;
+}
+
 .container{
   width: 86%;
   margin: auto;
@@ -49,6 +54,24 @@ button{
 .nav-bar ul li{
   padding: 0 1vw;
   color: hsl(233, 8%, 62%);
+}
+
+.nav-bar ul li:hover{
+  cursor: pointer;
+}
+
+.nav-bar ul li::after{
+  content: '';
+  display: block;
+  height: 0.9vh;
+  width: 0;
+  margin: 2.6vh 0 -5vh 0;
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  transition: all 0.5s;
+}
+
+.nav-bar ul li:hover::after{
+  width: 100%;
 }
 
 .request-btn1{
@@ -323,6 +346,11 @@ button{
   padding: 0 0 0 0.8vw;
 }
 
+.flex-icons ul li img:hover{
+  filter: invert(52%) sepia(100%) saturate(2715%) hue-rotate(88deg) brightness(126%) contrast(117%);
+  cursor: pointer;
+}
+
 .list1{
   margin: -17vh 0 0 20vw;
 }
@@ -334,6 +362,12 @@ button{
 .list1 ul li{
   color: hsl(0, 0%, 100%);
   padding: 1.5vh 0;
+  width: fit-content;
+}
+
+.list1 ul li:hover{
+  color: hsl(136, 65%, 51%);
+  cursor: pointer;
 }
 
 .list2{
@@ -345,8 +379,14 @@ button{
 }
 
 .list2 ul li{
+  width: fit-content;
   color: hsl(0, 0%, 100%);
   padding: 1.5vh 0;
+}
+
+.list2 ul li:hover{
+  color: hsl(136, 65%, 51%);
+  cursor: pointer;
 }
 
 .request-btn3{
@@ -357,6 +397,6 @@ button{
 
 .copyright{
   margin: -5vh 0 0 64vw;
-  color: hsl(0, 0%, 100%);
+  color: hsl(233, 8%, 62%);
   font-weight: 700;
 }
