@@ -1,0 +1,230 @@
+@media (max-width: 430px){
+  .container{
+    width: 95%;
+    margin: auto;
+    border: 1px solid red;
+  }
+
+  .nav{
+    z-index: 5;
+  }
+
+  .logo{
+    width: 30%;
+  }
+
+  .nav-bar{
+    display: none;
+  }
+
+  .request-btn1{
+    display: none;
+  }
+
+  .main{
+    background: url("images/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0% 0%;
+  }
+
+  .holder-1{
+    display: block;
+  }
+
+  .img-div0{
+    width: 90%;
+    display: block;
+    margin: -20vh auto 0;
+  }
+
+  .main-img{
+    width: 100%;
+  }
+
+  .img-div1{
+    display: none;
+  }
+
+  .writeup-1{
+    width: 90%;
+    margin: 8vh auto;
+    text-align: center;
+  }
+
+  .writeup-1 h1{
+    font-size: 9vw;
+  }
+
+  .writeup-1 p{
+    font-size: 4vw;
+  }
+
+  .request-btn2{
+    width: 40%;
+    height: 7vh;
+    font-size: 3.5vw;
+  }
+
+  .easy-info{
+    margin: 0;
+  }
+
+  .holder-2{
+    text-align: center;
+  }
+
+  .holder-2 h1{
+    padding: 0;
+    margin: 10vh auto 3vh;
+    width: 50%;
+    font-size: 8vw;
+  }
+
+  .holder-2 .p{
+    width: 85%;
+    padding: 0;
+    margin: 0 auto 10vh;
+    font-size: 3.8vw;
+  }
+
+  .flex-box1{
+    display: block;
+  }
+
+  .flex1{
+    margin: 0 0 5vh 0;
+  }
+
+  .flex1 img{
+    margin: 2vh auto 3vh;
+  }
+
+  .flex1 h2{
+    font-size: 6vw;
+    margin: 0 auto 3vh;
+  }
+
+  .flex1 p{
+    font-size: 4vw;
+    margin: 0 auto;
+  }
+
+  .flex2{
+    margin: 0 0 5vh 0;
+  }
+
+  .flex2 img{
+    margin: 2vh auto 3vh;
+  }
+
+  .flex2 h2{
+    font-size: 6vw;
+    margin: 0 auto 3vh;
+  }
+
+  .flex2 p{
+    font-size: 4vw;
+    margin: 0 auto;
+  }
+
+  .flex3{
+    margin: 0 0 5vh 0;
+  }
+
+  .flex3 img{
+    margin: 2vh auto 3vh;
+  }
+
+  .flex3 h2{
+    font-size: 6vw;
+    margin: 0 auto 3vh;
+  }
+
+  .flex3 p{
+    font-size: 4vw;
+    margin: 0 auto;
+  }
+
+  .flex4{
+    margin: 0 0 15vh 0;
+  }
+
+  .flex4 img{
+    margin: 2vh auto 3vh;
+  }
+
+  .flex4 h2{
+    font-size: 6vw;
+    margin: 0 auto 3vh;
+  }
+
+  .flex4 p{
+    font-size: 4vw;
+    margin: 0 auto;
+  }
+
+  .holder-3 h1{
+    font-size: 7vw;
+    font-weight: 300;
+    padding: 0;
+    width: fit-content;
+    margin: 5vh auto;
+  }
+
+  .flex-box2{
+    display: block;
+  }
+
+  .flexable-1{
+    background: hsl(0, 0%, 100%);
+    margin: 0 auto 8vh;
+  }
+  
+  .flexable-1 p{
+    font-size: 3.5vw;
+    color: hsl(233, 8%, 62%);
+    margin: 3vh 0 0 6vw;
+  }
+  
+  .flexable-1 h3{
+    font-size: 5vw;
+    margin: 2vh 0 0 6vw;
+    width: 85%;
+    color: hsl(233, 26%, 24%);
+  }
+  
+  .flexable-1 .p-1{
+    margin: 3vh 0 0 6vw;
+    padding: 0 0 5vh 0;
+    width: 78%;
+    font-size: 3.5vw;
+    color: hsl(233, 8%, 62%);
+  }
+
+  .flexable-2{
+    background: hsl(0, 0%, 100%);
+    margin: 0 auto 8vh;
+  }
+  
+  .flexable-2 p{
+    font-size: 3.5vw;
+    color: hsl(233, 8%, 62%);
+    margin: 3vh 0 0 6vw;
+  }
+  
+  .flexable-2 h3{
+    font-size: 5vw;
+    margin: 2vh 0 0 6vw;
+    width: 85%;
+    color: hsl(233, 26%, 24%);
+  }
+  
+  .flexable-2 .p-1{
+    margin: 3vh 0 0 6vw;
+    padding: 0 0 5vh 0;
+    width: 78%;
+    font-size: 3.5vw;
+    color: hsl(233, 8%, 62%);
+  }
+}

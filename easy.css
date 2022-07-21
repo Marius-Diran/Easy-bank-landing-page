@@ -32,6 +32,7 @@ button:hover{
 }
 
 .nav{
+  position: relative;
   background: hsl(0, 0%, 100%);
   box-shadow: 0 0.3px 15px 0.1px hsl(0, 0%, 0%);
 }
@@ -74,8 +75,19 @@ button:hover{
   width: 100%;
 }
 
+.nav-btn{
+  display: none;
+}
+
 .request-btn1{
   margin: 2.2vh 5vw;
+}
+
+.toggle-btn{
+  display: none;
+  position: absolute;
+  top: 4.5vh;
+  right: 22vw;
 }
 
 .main{
@@ -87,6 +99,10 @@ button:hover{
 
 .holder-1{
   display: flex;
+}
+
+.img-div0{
+  display: none;
 }
 
 .writeup-1{
