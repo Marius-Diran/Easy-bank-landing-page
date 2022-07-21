@@ -2,7 +2,6 @@
   .container{
     width: 95%;
     margin: auto;
-    border: 1px solid red;
   }
 
   .nav{
@@ -226,5 +225,107 @@
     width: 78%;
     font-size: 3.5vw;
     color: hsl(233, 8%, 62%);
+  }
+
+  .flexable-3{
+    background: hsl(0, 0%, 100%);
+    margin: 0 auto 8vh;
+  }
+  
+  .flexable-3 p{
+    font-size: 3.5vw;
+    color: hsl(233, 8%, 62%);
+    margin: 3vh 0 0 6vw;
+  }
+  
+  .flexable-3 h3{
+    font-size: 5vw;
+    margin: 2vh 0 0 6vw;
+    width: 85%;
+    color: hsl(233, 26%, 24%);
+  }
+  
+  .flexable-3 .p-1{
+    margin: 3vh 0 0 6vw;
+    padding: 0 0 5vh 0;
+    width: 78%;
+    font-size: 3.5vw;
+    color: hsl(233, 8%, 62%);
+  }
+
+  .flexable-4{
+    background: hsl(0, 0%, 100%);
+    margin: 0 auto 15vh;
+  }
+  
+  .flexable-4 p{
+    font-size: 3.5vw;
+    color: hsl(233, 8%, 62%);
+    margin: 3vh 0 0 6vw;
+  }
+  
+  .flexable-4 h3{
+    font-size: 5vw;
+    margin: 2vh 0 0 6vw;
+    width: 85%;
+    color: hsl(233, 26%, 24%);
+  }
+  
+  .flexable-4 .p-1{
+    margin: 3vh 0 0 6vw;
+    padding: 0 0 5vh 0;
+    width: 78%;
+    font-size: 3.5vw;
+    color: hsl(233, 8%, 62%);
+  }
+
+  .footer{
+    min-height: 85vh;
+  }
+
+  .logo2{
+    width: 40%;
+    margin: 8vh 0 5vh 28vw;
+  }
+
+  .flex-icons{
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .flex-icons ul li{
+    padding: 0 0 0 1.5vw;
+  }
+
+  .list1{
+    text-align: center;
+    width: fit-content;
+    margin: 2vh auto 0;
+  }
+
+  .list1 ul li{
+    width: 100%;
+  }
+
+  .list2{
+    text-align: center;
+    width: fit-content;
+    margin: 1vh auto 0;
+  }
+
+  .list2 ul li{
+    width: 100%;
+  }
+
+  .request-btn3{
+    top: 67vh;
+    left: 33vw;
+    width: 35%;
+    height: 7vh;
+  }
+
+  .copyright{
+    text-align: center;
+    margin: 16vh 0 0 0;
   }
 }
