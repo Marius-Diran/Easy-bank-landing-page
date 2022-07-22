@@ -75,15 +75,18 @@ button:hover{
   width: 100%;
 }
 
-.nav-btn{
-  display: none;
-}
-
 .request-btn1{
   margin: 2.2vh 5vw;
 }
 
 .toggle-btn{
+  display: none;
+  position: absolute;
+  top: 4.5vh;
+  right: 22vw;
+}
+
+.toggle-close{
   display: none;
   position: absolute;
   top: 4.5vh;
