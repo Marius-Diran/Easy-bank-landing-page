@@ -74,8 +74,8 @@
   }
 
   .holder-2 h1{
-    padding: 0;
-    margin: 10vh auto 3vh;
+    padding: 10vh 0 0 0;
+    margin: 0vh auto 3vh;
     width: 50%;
     font-size: 8vw;
   }
@@ -161,6 +161,7 @@
   .flex4 p{
     font-size: 4vw;
     margin: 0 auto;
+    padding: 0 0 12vh 0;
   }
 
   .holder-3 h1{
