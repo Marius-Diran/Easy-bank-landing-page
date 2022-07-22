@@ -409,14 +409,16 @@ button:hover{
 }
 
 .request-btn3{
-  position: relative;
-  top: -15vh;
-  left: 64vw;
+  width: 100%;
+}
+
+.lastdiv-btn{
   width: 15%;
+  margin: -16vh 0 0 67vw;
 }
 
 .copyright{
-  margin: -5vh 0 0 64vw;
+  margin: 5vh 0 0 64vw;
   color: hsl(233, 8%, 62%);
   font-weight: 700;
 }

@@ -360,24 +360,13 @@
     width: 100%;
   }
 
-  .request-btn3{
-    top: 3vh;
-    left: 32vw;
-    width: 35%;
-    height: 7vh;
+  .lastdiv-btn{
+    width: 40%;
+    margin: 2vh auto;
   }
 
   .copyright{
     text-align: center;
-    margin: 8vh 0 0 0;
-  }
-}
-
-@media (max-width: 375px){
-  .request-btn3{
-    top: 64vh;
-    left: 33vw;
-    width: 35%;
-    height: 7vh;
+    margin: 5vh 0 0 0;
   }
 }
