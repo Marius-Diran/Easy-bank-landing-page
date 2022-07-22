@@ -348,7 +348,7 @@ button:hover{
 .footer{
   background-color: hsl(233, 26%, 24%);
   height: 32vh;
-  position: relative;
+  /* position: relative; */
 }
 
 .logo2{
@@ -409,9 +409,10 @@ button:hover{
 }
 
 .request-btn3{
-  position: absolute;
-  top: 7vh;
-  right: 10vw;
+  position: relative;
+  top: -15vh;
+  left: 64vw;
+  width: 15%;
 }
 
 .copyright{
